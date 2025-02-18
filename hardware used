@@ -1,0 +1,31 @@
+1 Hardware used: 
+ 
+I.	Arduino Nano: 
+ 
+The Arduino Nano is a compact microcontroller board based on the ATmega328P chip. It serves as the brain of the RFID system, executing code to control the various components and interact with the RFID reader module. The Nano receives data from the RFID reader, processes it, and triggers corresponding actions, such as displaying information on the LCD, activating the buzzer, or controlling the servo motor. 
+ 
+II.	Buzzer: 
+ 
+The buzzer is an electromechanical component that produces audible alerts or tones when activated. 
+In the RFID system, the buzzer is used to provide auditory feedback, such as indicating successful RFID tag detection or alerting to an error condition. It is typically controlled by the Arduino Nano, which sends signals to the buzzer to turn it on or off as needed. 
+ 
+III.	LCD Display: 
+ 
+The LCD (Liquid Crystal Display) display provides a visual interface for presenting information to the user. In the RFID system, the LCD display is used to show relevant data retrieved from RFID tags, such as identification numbers or status messages. The Arduino Nano communicates with the LCD display via the I2C protocol using an I2C LCD module, allowing it to send text or commands to the display for rendering. 
+ 
+IV.	I2C LCD Module: 
+ 
+The I2C LCD module serves as an interface between the Arduino Nano and the LCD display, enabling serial communication using the I2C (Inter-Integrated Circuit) protocol. It simplifies the wiring and control of the LCD display, requiring only a few connections to the Arduino Nano. The module typically includes an I2C communication chip and a voltage regulator, ensuring compatibility with the Arduino Nano and providing stable operation. 
+V.	LED Lights (Red and Green): 
+ 
+The LED lights serve as visual indicators to provide feedback to the user about the system's status or actions. In the RFID system, red and green LEDs may be used to indicate different states, such as readiness, successful tag detection, or error conditions. The Arduino Nano controls the LEDs by turning them on or off based on predefined conditions or events detected by the system. 
+ 
+VI.	Servo Motor: 
+ 
+The servo motor is a rotary actuator that allows precise control of angular position. In the RFID system, a servo motor can be used for physical manipulation tasks, such as opening or closing a door, gate, or barrier in an access control system. The Arduino Nano sends signals to the servo motor to move it to a specific position based on the system's requirements, such as granting access upon successful RFID tag detection. 
+ 
+ 
+ 
+these hardware components work together under the control of the Arduino Nano to create a functional RFID system, providing both visual and auditory feedback to the user and enabling interaction with the environment through the servo motor. 
+ 
+ 
